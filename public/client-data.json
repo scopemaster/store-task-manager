@@ -1,0 +1,61 @@
+{
+	"clients": [
+		{
+			"id": "4829a02c83784f14b3a5c92ed9fe118f",
+			"name": "Tesco",
+			"category": "Convenience Store",
+			"stores": [
+				{
+					"id": "a6203a659de440aebda0f1f3c2cc3e36",
+					"type": "Superstore",
+					"name": "Tesco Superstore",
+					"tasks": [
+						{
+							"id": "e45bd7d4b8954b17b5ab9071b0c5fdbe",
+							"name": "Task 1",
+							"description": "Description for Task 1",
+							"status": "Pending",
+							"isAssigned": false,
+							"assignedTo": "",
+							"comment": ""
+						},
+						{
+							"id": "b04429ceb8ec42d19933d05ae45f0f52",
+							"name": "Task 2",
+							"description": "Description for Task 2",
+							"status": "Pending",
+							"isAssigned": false,
+							"assignedTo": "",
+							"comment": ""
+						}
+					]
+				},
+				{
+					"id": "e9398038e7cb43d0875c3c4c60737801",
+					"type": "Express",
+					"name": "Tesco Express",
+					"tasks": [
+						{
+							"id": "b45ce5c709df4273907175b41df7b823",
+							"name": "Task 1",
+							"description": "Description for Task 1",
+							"status": "Pending",
+							"isAssigned": false,
+							"assignedTo": "",
+							"comment": ""
+						},
+						{
+							"id": "046b0ea7c0a2480d81e9175a7e4217c6",
+							"name": "Task 2",
+							"description": "Description for Task 2",
+							"status": "Pending",
+							"isAssigned": false,
+							"assignedTo": "",
+							"comment": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

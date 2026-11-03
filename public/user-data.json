@@ -1,0 +1,44 @@
+{
+	"users": [
+		{
+			"id": "c6440c1f2dd04361a1d601622375d46a",
+			"name": "Alex Morgan",
+			"email": "alex.morgan@example.com",
+			"password": "pass123",
+			"avatar": "https://example.com/avatar1.png",
+			"roles": ["ADMIN"],
+			"timestamp": 1697040000000,
+			"dateCreated": "2023-10-11T00:00:00Z"
+		},
+		{
+			"id": "c59294fa062249ddb32851f02765136c",
+			"name": "Jordan Chen",
+			"email": "jordan.chen@example.com",
+			"password": "pass456",
+			"avatar": "https://example.com/avatar2.png",
+			"roles": ["STORE_MANAGER"],
+			"timestamp": 1697040000212,
+			"dateCreated": "2023-10-11T00:00:00Z"
+		},
+		{
+			"id": "52757926cdee4f2389037efe2e7122f6",
+			"name": "Marcus Vance",
+			"email": "marcus.vance@example.com",
+			"password": "pass789",
+			"avatar": "https://example.com/avatar3.png",
+			"roles": ["USER"],
+			"timestamp": 1697047650000,
+			"dateCreated": "2023-10-11T00:00:00Z"
+		},
+		{
+			"id": "87a14dafe75c41a09ff7c2036004d635",
+			"name": "Elena Rostova",
+			"email": "elena.rostova@example.com",
+			"password": "pass789",
+			"avatar": "https://example.com/avatar4.png",
+			"roles": ["CENTRAL_OPERATIONS"],
+			"timestamp": 1697047650031,
+			"dateCreated": "2023-10-11T00:00:00Z"
+		}
+	]
+}
