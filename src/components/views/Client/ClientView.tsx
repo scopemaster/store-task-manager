@@ -16,7 +16,6 @@ import useGlobalDataUpdateContext from '../../../context-data/GlobalDataUpdateCo
 import useGlobalDataContext from '../../../context-data/GlobalDataContext';
 import { GlobalData } from '../../../models/GlobalData';
 import { TaskStatusEnum } from '../../../enums/TaskStatusEnum';
-import { StoreTypeEnum } from '../../../enums/StoreTypeEnum';
 
 const ClientView = () => {
 	const [users, setUsers] = useState(new Array<User>());
@@ -290,7 +289,7 @@ const ClientView = () => {
 	 * Finds and filter user tasks by specified store type
 	 * @param type
 	 */
-	const selectedStoreTypeHandler = (type: StoreTypeEnum) => {
+	const selectedStoreTypeHandler = (type: string) => {
 		const userTaskArr = StorageUtil.getUserTasksFromStorageAsArray();
 
 		if (userTaskArr) {

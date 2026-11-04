@@ -1,16 +1,12 @@
 import './UserTaskView.scss';
-import { useState } from 'react';
-import { User } from '../../../models/User';
 import type { UserTask } from '../../../models/UserTask';
-import type { StoreTypeEnum } from '../../../enums/StoreTypeEnum';
 
 interface UserTaskListProps {
 	userTasks: Array<UserTask>;
-	onSelectedType?: (type: StoreTypeEnum) => void;
+	onSelectedType: (type: string) => void;
 }
 
 const UserTaskView = ({ userTasks, onSelectedType }: UserTaskListProps) => {
-	const [selectedIndex, setSelectedIndex] = useState(-1);
 
 	return (
 		<div className="user-task-view">
@@ -82,11 +78,7 @@ const UserTaskView = ({ userTasks, onSelectedType }: UserTaskListProps) => {
 							<td>{userTask.storeType}</td>
 							<td>{userTask.task.description}</td>
 							<td>
-								<span
-									className={
-										selectedIndex === index ? 'badge app-theme-inverse' : 'badge app-theme-warning'
-									}
-								>
+								<span className="badge app-theme-warning">
 									{userTask.task.status}
 								</span>
 							</td>

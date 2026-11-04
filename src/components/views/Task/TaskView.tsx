@@ -2,6 +2,7 @@ import './TaskView.scss';
 import { useState } from 'react';
 import { Task } from '../../../models/Task';
 import useGlobalDataContext from '../../../context-data/GlobalDataContext';
+import { UserRoleEnum } from '../../../enums/UserRoleEnum';
 
 interface TaskListProps {
 	tasks: Array<Task>;
@@ -55,8 +56,8 @@ const TaskView = ({ tasks, onSelectedTask, onCompleteTask }: TaskListProps) => {
 							</span>
 						</section>
 
-						{(globalData.selectedUser.roles.includes('STORE_MANAGER') ||
-							globalData.selectedUser.roles.includes('CENTRAL_OPERATIONS')) && (
+						{(globalData!.selectedUser.roles.includes(UserRoleEnum.STORE_MANAGER) ||
+							globalData!.selectedUser.roles.includes(UserRoleEnum.CENTRAL_OPERATIONS)) && (
 							<section>
 								<button type="button" className="btn">
 									Yes
@@ -74,7 +75,7 @@ const TaskView = ({ tasks, onSelectedTask, onCompleteTask }: TaskListProps) => {
 							</section>
 						)}
 
-						{globalData.selectedUser.roles.includes('USER') && (
+						{globalData!.selectedUser.roles.includes(UserRoleEnum.USER) && (
 							<section>
 								<button
 									type="button"

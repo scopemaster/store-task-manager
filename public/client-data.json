@@ -26,6 +26,13 @@
 							"description": "Is your register area stocked with supplies?",
 							"status": "Open",
 							"isAssigned": false
+						},
+						{
+							"id": "b04429ceb8ec42d19933d053245f0f52",
+							"name": "Task 3ADD",
+							"description": "Is your register area stocked with supplies 3ADD?",
+							"status": "Open",
+							"isAssigned": false
 						}
 					]
 				},
