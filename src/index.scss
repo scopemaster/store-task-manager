@@ -8,3 +8,13 @@ body {
 	overflow: hidden;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.app-theme-inverse {
+	background-color: white !important;
+	color: black !important;
+}
+
+.app-theme-warning {
+	background-color: #fbc02d !important;
+	color: black !important;
+}

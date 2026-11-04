@@ -26,7 +26,28 @@ const UserView = ({ users, onSelectedUser }: UserListProps) => {
 							onSelectedUser(user);
 						}}
 					>
-						{user.name}
+						<section className="user-view__item">
+							<section>
+								<input
+									style={{
+										marginRight: '10px',
+									}}
+									type="checkbox"
+									className="check"
+									checked={selectedIndex === index}
+									onChange={(e) => {}}
+								/>
+								<span>{user.name}</span>
+							</section>
+
+							<span
+								className={
+									selectedIndex === index ? 'badge app-theme-inverse' : 'badge app-theme-warning'
+								}
+							>
+								{user.roles.toString()}
+							</span>
+						</section>
 					</li>
 				))}
 			</ul>

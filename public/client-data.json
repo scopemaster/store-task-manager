@@ -10,24 +10,22 @@
 					"userId": "c6440c1f2dd04361a1d601622375d46a",
 					"type": "Superstore",
 					"name": "Tesco Superstore",
+					"date": "2026-10-11T00:00:00Z",
+					"startTime": "09:00:00",
 					"tasks": [
 						{
 							"id": "e45bd7d4b8954b17b5ab9071b0c5fdbe",
 							"name": "Task 1",
-							"description": "Description for Task 1",
-							"status": "Pending",
-							"isAssigned": false,
-							"assignedTo": "",
-							"comment": ""
+							"description": "Are all fire exits clear?",
+							"status": "Open",
+							"isAssigned": false
 						},
 						{
 							"id": "b04429ceb8ec42d19933d05ae45f0f52",
 							"name": "Task 2",
-							"description": "Description for Task 2",
-							"status": "Pending",
-							"isAssigned": false,
-							"assignedTo": "",
-							"comment": ""
+							"description": "Is your register area stocked with supplies?",
+							"status": "Open",
+							"isAssigned": false
 						}
 					]
 				},
@@ -36,24 +34,29 @@
 					"userId": "c59294fa062249ddb32851f02765136c",
 					"type": "Express",
 					"name": "Tesco Express",
+					"date": "2026-10-11T00:00:00Z",
+					"startTime": "09:30:00",
 					"tasks": [
 						{
 							"id": "b45ce5c709df4273907175b41df7b823",
 							"name": "Task 1",
-							"description": "Description for Task 1",
-							"status": "Pending",
-							"isAssigned": false,
-							"assignedTo": "",
-							"comment": ""
+							"description": "Do you need manager support before starting?",
+							"status": "Open",
+							"isAssigned": false
 						},
 						{
 							"id": "046b0ea7c0a2480d81e9175a7e4217c6",
 							"name": "Task 2",
-							"description": "Description for Task 2",
-							"status": "Pending",
-							"isAssigned": false,
-							"assignedTo": "",
-							"comment": ""
+							"description": "Are all walkway aisles safe and clutter-free?",
+							"status": "Open",
+							"isAssigned": false
+						},
+						{
+							"id": "416df41fe6d04574ba2a8cb2deacbbde",
+							"name": "Task 2",
+							"description": "Did you receive a handover from the last shift?",
+							"status": "Open",
+							"isAssigned": false
 						}
 					]
 				}

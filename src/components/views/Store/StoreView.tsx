@@ -26,7 +26,15 @@ const StoreView = ({ stores, onSelectedStore }: StoreListProps) => {
 							onSelectedStore(store);
 						}}
 					>
-						{store.name}
+						<section>
+							<h3>{store.name}</h3>
+							<div>
+								<strong>Date:</strong> {store.date.toLocaleDateString()}
+							</div>
+							<div>
+								<strong>Start Time:</strong> {store.startTime}
+							</div>
+						</section>
 					</li>
 				))}
 			</ul>

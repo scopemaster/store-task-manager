@@ -4,8 +4,6 @@ export class Task {
 	public description = '';
 	public status = '';
 	public isAssigned = false;
-	public assignedTo = '';
-	public comment = '';
 
 	constructor(data: any = null) {
 		if (data !== null) {
@@ -14,8 +12,6 @@ export class Task {
 			this.description = data['description'];
 			this.status = data['status'];
 			this.isAssigned = data['isAssigned'];
-			this.assignedTo = data['assignedTo'];
-			this.comment = data['comment'];
 		}
 	}
 }

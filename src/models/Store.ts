@@ -8,6 +8,8 @@ export class Store {
 	public name = '';
 	public isSelected = false; // For UI selection purposes
 	public tasks = new Array<Task>();
+	public date = new Date();
+	public startTime = new Date().toLocaleTimeString();
 
 	constructor(data: any = null) {
 		if (data !== null) {
@@ -17,6 +19,8 @@ export class Store {
 			this.name = data['name'];
 			this.isSelected = data['isSelected'];
 			this.tasks = data['tasks'] ? data['tasks'].map((taskData: any) => new Task(taskData)) : [];
+			this.date = new Date(data['date']);
+			this.startTime = data['startTime'];
 		}
 	}
 }
