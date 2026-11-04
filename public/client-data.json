@@ -7,6 +7,7 @@
 			"stores": [
 				{
 					"id": "a6203a659de440aebda0f1f3c2cc3e36",
+					"userId": "c6440c1f2dd04361a1d601622375d46a",
 					"type": "Superstore",
 					"name": "Tesco Superstore",
 					"tasks": [
@@ -32,6 +33,7 @@
 				},
 				{
 					"id": "e9398038e7cb43d0875c3c4c60737801",
+					"userId": "c59294fa062249ddb32851f02765136c",
 					"type": "Express",
 					"name": "Tesco Express",
 					"tasks": [

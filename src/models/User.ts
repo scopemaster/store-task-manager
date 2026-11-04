@@ -17,7 +17,7 @@ export class User {
 			this.email = data['email'];
 			this.password = data['password'];
 			this.avatar = data['avatar'];
-			this.roles = data['role'];
+			this.roles = data['roles'];
 			this.timestamp = data['timestamp'];
 			this.dateCreated = new Date(data['dateCreated']);
 		}

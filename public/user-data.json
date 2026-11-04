@@ -6,7 +6,7 @@
 			"email": "alex.morgan@example.com",
 			"password": "pass123",
 			"avatar": "https://example.com/avatar1.png",
-			"roles": ["ADMIN"],
+			"roles": ["STORE_MANAGER"],
 			"timestamp": 1697040000000,
 			"dateCreated": "2023-10-11T00:00:00Z"
 		},
